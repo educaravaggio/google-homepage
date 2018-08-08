@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#apps {
+  font-size: 20px;
+  color: #737373;
+  vertical-align: middle;
+}
+ 
+#bell {
+  background: #737373;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 9px;
+  border-radius: 50%;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+#user-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 23px;
+  vertical-align: middle;
+}
+
+.ul-top {
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+  text-align: right;
+  margin-top: 9px;
+}
+
+li {
+  display: inline-block;
+  padding: 7px;
+  vertical-align: middle;
+}
+
+.p-nav {
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
+}
+
+.input-search {
+  width: 570px;
+  height: 45px;
+  border: 1px solid  #e8e8e8;
+  box-shadow: 1px 3px 3px #e7e7e7;
+  position: relative;
+  top: 178px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.main-body {
+  width: 100vw;
+  text-align: center;
+  top: 155px;
+  position: relative;
+}
+
+.buttons {
+  background: #f4f4f4;
+/*   width: 120px;
+  height: 30px; */
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #757575;
+  text-align: center;
+  top: 230px;
+  position: relative;
+  display: inline-block;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.btn-sep1 {
+  border-right: 6px solid #fff;
+}
+
+#p-main {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  top: 470px;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.footer1 {
+  width: 100vw;
+  text-align: left;
+  background: #f2f2f2;
+  color: #717171;
+  padding: 10px 30px;
+  border: 1px solid #e4e4e4;
+}
+
+.footer2 {
+  width: 100vw;
+  text-align: left;
+  background: #f2f2f2;
+  color: #717171;
+  padding: 10px 25px;
+  border: 1px solid #e4e4e4;
+}
+
+.right-footer {
+  float: right;
+  position: relative;
+  right: 45px;
+}
