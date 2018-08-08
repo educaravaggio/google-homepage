@@ -68,29 +68,30 @@ li {
 }
 
 .buttons {
-  background: #f4f4f4;
-/*   width: 120px;
-  height: 30px; */
-  font-family: Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: #757575;
   text-align: center;
-  top: 230px;
-  position: relative;
-  display: inline-block;
-  margin-left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-}
+  margin-top: 210px;
+ }
 
-.btn-sep1 {
-  border-right: 6px solid #fff;
-}
+ .li-btn {
+   display: inline;
+ }
+
+ .btn-sep1, .btn-sep2 {
+   background: #f4f4f4;
+   padding: 10px 15px;
+   color: #757575;
+   font-family: Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 13px;
+   margin: 0 2px;
+ }
+
+ .btn-sep1:hover, .btn-sep2:hover {
+  cursor: pointer;
+ }
 
 #p-main {
   font-family: Helvetica, sans-serif;
-  text-decoration: none;
   font-size: 13px;
   top: 470px;
   position: absolute;
@@ -127,4 +128,8 @@ footer {
   float: right;
   position: relative;
   right: 45px;
+}
+
+a {
+  text-decoration: none;
 }
